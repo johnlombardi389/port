@@ -7,13 +7,21 @@ function Nav() {
     <nav>
       <h1>Logo</h1>
       <ul>
-        <li>Projects</li>
-        <li>About</li>
         <li>
-          <FaLinkedin />
+          <a href="#">Projects</a>
         </li>
         <li>
-          <FaGithub />
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">
+            <FaLinkedin />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <FaGithub />
+          </a>
         </li>
       </ul>
     </nav>
