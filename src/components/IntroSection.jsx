@@ -32,7 +32,10 @@ function IntroSection() {
         </div>
       </div>
 
-      <button>See My Work</button>
+      <div className="btn-container">
+        <button className="intro-btn">See My Work</button>
+        <button className="intro-btn">Contact Me</button>
+      </div>
     </div>
   );
 }

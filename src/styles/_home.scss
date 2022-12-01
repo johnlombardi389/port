@@ -13,3 +13,17 @@
     font-size: 2rem;
   }
 }
+
+.intro-btn {
+  margin-right: 5rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border: 3px solid green;
+  background: transparent;
+  color: white;
+  transition: all 0.5s ease;
+  &:hover {
+    background-color: green;
+    color: white;
+  }
+}
