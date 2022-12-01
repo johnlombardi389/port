@@ -1,0 +1,15 @@
+.intro-container {
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  color: white;
+  padding: 25rem 5rem;
+  .hide {
+    overflow: hidden;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}

@@ -14,12 +14,15 @@ function Nav() {
           <a href="#">About</a>
         </li>
         <li>
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/johnlombardi389/"
+            target="_blank"
+          >
             <FaLinkedin />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="https://github.com/johnlombardi389" target="_blank">
             <FaGithub />
           </a>
         </li>

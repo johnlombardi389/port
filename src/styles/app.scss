@@ -1,8 +1,13 @@
+@import "./colors";
+@import "./nav";
+@import "./home";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@import "./colors";
-@import "./nav";
+body {
+  background-color: $bodyBack;
+}

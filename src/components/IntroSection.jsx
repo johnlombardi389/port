@@ -4,22 +4,31 @@ function IntroSection() {
   return (
     <div className="intro-container">
       <div className="title">
-        <div className="hide">
-          <h2>Lorem ipsum dolor sit amet.</h2>
+        <div>
+          <div className="hide">
+            <h2>My name is John Lombardi.</h2>
+          </div>
         </div>
       </div>
 
       <div className="title">
-        <div className="hide">
-          <h2>
-            Lorem ipsum dolor <span>sit amet.</span>
-          </h2>
+        <div>
+          <div className="hide">
+            <h2>
+              I’m a design minded front-end web developer and lifelong learner.
+            </h2>
+          </div>
         </div>
       </div>
 
       <div className="title">
-        <div className="hide">
-          <h2>Lorem ipsum dolor sit amet.</h2>
+        <div>
+          <div className="hide">
+            <h2>
+              I’m all about crafting accessible user experiences and impactful
+              business solutions.{" "}
+            </h2>
+          </div>
         </div>
       </div>
 
