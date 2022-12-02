@@ -6,7 +6,9 @@ function IntroSection() {
       <div className="title">
         <div>
           <div className="hide">
-            <h2>My name is John Lombardi.</h2>
+            <h2>
+              My name is <span>John Lombardi</span>.
+            </h2>
           </div>
         </div>
       </div>
@@ -25,8 +27,12 @@ function IntroSection() {
         <div>
           <div className="hide">
             <h2>
-              I’m all about crafting accessible user experiences and impactful
-              business solutions.{" "}
+              I’m all about
+              <span>
+                crafting accessible user experiences and impactful business
+                solutions
+              </span>
+              .
             </h2>
           </div>
         </div>
