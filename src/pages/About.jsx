@@ -2,6 +2,8 @@ import React from "react";
 // Animation
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
+// Images
+import codingImg from "../assets/coding-img.svg";
 
 function About() {
   return (
@@ -45,7 +47,7 @@ function About() {
       </div>
 
       <div className="about-img">
-        <img src="#" alt="Portfolio Image" />
+        <img src={codingImg} alt="Portfolio Image" />
       </div>
     </motion.div>
   );
