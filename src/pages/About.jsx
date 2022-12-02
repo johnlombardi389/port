@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
 // Images
-import codingImg from "../assets/coding-img.svg";
+import codingImg from "../assets/codingImg.svg";
 
 function About() {
   return (
