@@ -6,6 +6,10 @@
   padding: 5rem;
   .card {
     background-color: purple;
-    padding: 5rem;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
   }
 }
