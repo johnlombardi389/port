@@ -1,6 +1,7 @@
 @import "./colors";
 @import "./nav";
 @import "./home";
+@import "./projects";
 
 * {
   margin: 0;
@@ -10,6 +11,7 @@
 
 body {
   background-color: $bodyBack;
+  overflow: hidden;
 }
 
 .btn-container {

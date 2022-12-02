@@ -1,10 +1,18 @@
 import React from "react";
+// Animation
+import { motion } from "framer-motion";
+import { pageAnimation } from "../animation";
 
 function About() {
   return (
-    <div>
+    <motion.div
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       <h1>About</h1>
-    </div>
+    </motion.div>
   );
 }
 
