@@ -4,7 +4,11 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
   grid-gap: 5rem;
+  margin: auto;
   padding: 5rem;
+  @media (max-width: 1300px) {
+    grid-template-columns: 1fr;
+  }
   .card {
     background-color: purple;
     img {

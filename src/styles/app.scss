@@ -20,6 +20,9 @@
 
 body {
   background-color: $bodyBack;
+  @media (max-width: 1300px) {
+    font-size: 75%;
+  }
 }
 
 .btn-container {
