@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 // Icons
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 // Image
-import portLogo from "/public/portLogo.svg";
+import portLogo from "/portLogo.svg";
 
 function Nav() {
   return (
