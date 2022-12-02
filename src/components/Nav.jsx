@@ -2,13 +2,15 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 // Icons
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+// Image
+import portLogo from "/public/portLogo.svg";
 
 function Nav() {
   return (
     <nav>
       <h1>
         <NavLink id="logo" to={"/"}>
-          Logo
+          <img src={portLogo} alt="John Lombardi Logo" />
         </NavLink>
       </h1>
       <ul>
