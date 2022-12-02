@@ -48,9 +48,8 @@ function Projects() {
         </div>
         <div className="card-desc">
           <ul>
-            <li>React</li>
             <li>JavaScript</li>
-            <li>SASS</li>
+            <li>CSS</li>
             <li>HTML</li>
             <li>Figma</li>
           </ul>
@@ -68,7 +67,6 @@ function Projects() {
         </div>
         <div className="card-desc">
           <ul>
-            <li>React</li>
             <li>JavaScript</li>
             <li>SASS</li>
             <li>HTML</li>
@@ -88,7 +86,6 @@ function Projects() {
         </div>
         <div className="card-desc">
           <ul>
-            <li>React</li>
             <li>JavaScript</li>
             <li>SASS</li>
             <li>HTML</li>
