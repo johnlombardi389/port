@@ -18,11 +18,8 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow-y: scroll;
-}
-
 body {
+  overflow-y: scroll;
   background-color: $bodyBack;
   @media (max-width: 1300px) {
     font-size: 75%;
