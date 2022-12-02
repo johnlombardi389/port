@@ -1,6 +1,9 @@
 import React from "react";
+import { Link, useLocation } from "react-router-dom";
 
 function IntroSection() {
+  const { pathname } = useLocation();
+
   return (
     <div className="intro-container">
       <div className="title">
@@ -39,7 +42,9 @@ function IntroSection() {
       </div>
 
       <div className="btn-container">
-        <button className="intro-btn">See My Work</button>
+        <Link to={"/projects"}>
+          <button className="intro-btn">See My Work</button>
+        </Link>
         <button className="intro-btn">Contact Me</button>
       </div>
     </div>
