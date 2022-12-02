@@ -19,22 +19,82 @@ function Projects() {
     >
       <div className="card">
         <img src={musicImg} alt="Music Player Project" />
-        <h2>Project</h2>
+        <div className="card-title">
+          <h2>Music Player</h2>
+          <div className="card-btns">
+            <button className="project-btn">Demo</button>
+            <button className="project-btn">GitHub</button>
+          </div>
+        </div>
+        <div className="card-desc">
+          <ul>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>SASS</li>
+            <li>HTML</li>
+            <li>Figma</li>
+          </ul>
+        </div>
       </div>
 
       <div className="card">
         <img src={pixelImg} alt="Pixel Sketch Project" />
-        <h2>Project</h2>
+        <div className="card-title">
+          <h2>Pixel Sketch</h2>
+          <div className="card-btns">
+            <button className="project-btn">Demo</button>
+            <button className="project-btn">GitHub</button>
+          </div>
+        </div>
+        <div className="card-desc">
+          <ul>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>SASS</li>
+            <li>HTML</li>
+            <li>Figma</li>
+          </ul>
+        </div>
       </div>
 
       <div className="card">
         <img src={layoutImg} alt="Layout Generator Project" />
-        <h2>Project</h2>
+        <div className="card-title">
+          <h2>Layout Generator</h2>
+          <div className="card-btns">
+            <button className="project-btn">Demo</button>
+            <button className="project-btn">GitHub</button>
+          </div>
+        </div>
+        <div className="card-desc">
+          <ul>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>SASS</li>
+            <li>HTML</li>
+            <li>Figma</li>
+          </ul>
+        </div>
       </div>
 
       <div className="card">
         <img src={rpsImg} alt="Rock, Paper, Scissors Project" />
-        <h2>Project</h2>
+        <div className="card-title">
+          <h2>Rock, Paper, Scissors</h2>
+          <div className="card-btns">
+            <button className="project-btn">Demo</button>
+            <button className="project-btn">GitHub</button>
+          </div>
+        </div>
+        <div className="card-desc">
+          <ul>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>SASS</li>
+            <li>HTML</li>
+            <li>Figma</li>
+          </ul>
+        </div>
       </div>
     </motion.div>
   );
