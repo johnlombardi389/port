@@ -1,11 +1,9 @@
 import React from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // Icons
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Nav() {
-  const { pathname } = useLocation();
-
   return (
     <nav>
       <h1>
