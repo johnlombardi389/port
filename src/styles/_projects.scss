@@ -56,14 +56,15 @@
         transition: all 0.5s ease;
         li {
           font-family: "Be Vietnam Pro", sans-serif;
+          font-size: 0.75rem;
           font-weight: 100;
-          padding-right: 2rem;
-          color: white;
+          padding: 0rem 1rem;
+          color: $mainPink;
         }
       }
     }
     &:hover {
-      background-color: $altBodyBack;
+      background-color: $navBack;
       ul {
         opacity: 1;
       }

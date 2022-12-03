@@ -21,6 +21,15 @@ function Projects() {
         <img src={musicImg} alt="Music Player Project" />
         <div className="card-title">
           <h2>Music Player</h2>
+          <div className="card-desc">
+            <ul>
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>SASS</li>
+              <li>HTML</li>
+              <li>Figma</li>
+            </ul>
+          </div>
           <div className="card-btns">
             <a
               href="https://johnlombardi389.github.io/music-player/"
@@ -38,21 +47,20 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="card-desc">
-          <ul>
-            <li>React</li>
-            <li>JavaScript</li>
-            <li>SASS</li>
-            <li>HTML</li>
-            <li>Figma</li>
-          </ul>
-        </div>
       </div>
 
       <div className="card">
         <img src={pixelImg} alt="Pixel Sketch Project" />
         <div className="card-title">
           <h2>Pixel Sketch</h2>
+          <div className="card-desc">
+            <ul>
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>Figma</li>
+            </ul>
+          </div>
           <div className="card-btns">
             <a
               href="https://johnlombardi389.github.io/pixel-sketch/"
@@ -70,20 +78,20 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="card-desc">
-          <ul>
-            <li>JavaScript</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>Figma</li>
-          </ul>
-        </div>
       </div>
 
       <div className="card">
         <img src={layoutImg} alt="Layout Generator Project" />
         <div className="card-title">
           <h2>Layout Generator</h2>
+          <div className="card-desc">
+            <ul>
+              <li>JavaScript</li>
+              <li>SASS</li>
+              <li>HTML</li>
+              <li>Figma</li>
+            </ul>
+          </div>
           <div className="card-btns">
             <a
               href="https://johnlombardi389.github.io/layout-generator/"
@@ -101,20 +109,20 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="card-desc">
-          <ul>
-            <li>JavaScript</li>
-            <li>SASS</li>
-            <li>HTML</li>
-            <li>Figma</li>
-          </ul>
-        </div>
       </div>
 
       <div className="card">
         <img src={rpsImg} alt="Rock, Paper, Scissors Project" />
         <div className="card-title">
           <h2>Rock, Paper, Scissors</h2>
+          <div className="card-desc">
+            <ul>
+              <li>JavaScript</li>
+              <li>SASS</li>
+              <li>HTML</li>
+              <li>Figma</li>
+            </ul>
+          </div>
           <div className="card-btns">
             <a
               href="https://johnlombardi389.github.io/rock-paper-scissors/"
@@ -131,14 +139,6 @@ function Projects() {
               GitHub
             </a>
           </div>
-        </div>
-        <div className="card-desc">
-          <ul>
-            <li>JavaScript</li>
-            <li>SASS</li>
-            <li>HTML</li>
-            <li>Figma</li>
-          </ul>
         </div>
       </div>
     </motion.div>
