@@ -70,7 +70,13 @@ function About() {
         </div>
       </motion.div>
 
-      <div className="skills-section">
+      <motion.div
+        className="skills-section"
+        variants={pageAnimation}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+      >
         <h1>Skills</h1>
         <div className="skills-list">
           <ul>
@@ -136,7 +142,7 @@ function About() {
             </li>
           </ul>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
