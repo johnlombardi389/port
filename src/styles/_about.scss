@@ -21,10 +21,12 @@
       font-family: "Be Vietnam Pro", sans-serif;
       font-weight: 400;
       color: white;
+      line-height: 1.5;
     }
     a {
       text-decoration: none;
-      color: pink;
+      color: $mainBlue;
+      font-weight: 700;
     }
   }
   .about-img {

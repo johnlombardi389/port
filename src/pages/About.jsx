@@ -57,11 +57,10 @@ function About() {
           </p>
 
           <p>
-            Reach out to me at
+            Let's build something great together, you can always reach me at:{" "}
             <a href="mailto:johnlombardi389@gmail.com">
               johnlombardi389@gmail.com
             </a>
-            so we can build something great together.
           </p>
         </div>
 
