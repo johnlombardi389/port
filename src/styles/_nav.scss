@@ -20,11 +20,11 @@ nav {
   }
   a {
     cursor: pointer;
-    color: white;
+    color: $darkerText;
     text-decoration: none;
     transition: all 0.3s ease;
     &:hover {
-      color: green;
+      color: $mainBlue;
     }
   }
   ul {
