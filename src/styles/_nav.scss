@@ -10,9 +10,8 @@ nav {
   z-index: 10;
   background: $navBack;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   h1 {
-    color: white;
     img {
       width: 3rem;
       height: 3rem;
@@ -41,4 +40,8 @@ nav {
       height: 1.75rem;
     }
   }
+}
+
+.active {
+  color: $mainBlue;
 }
