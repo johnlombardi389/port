@@ -10,7 +10,8 @@
     grid-template-columns: 1fr;
   }
   .card {
-    background-color: purple;
+    background-color: transparent;
+    transition: all 0.5s ease;
     img {
       width: 100%;
       height: auto;
@@ -25,20 +26,21 @@
         font-size: 1.5rem;
         font-family: "Be Vietnam Pro", sans-serif;
         font-weight: 700;
+        color: white;
       }
       .project-btn {
         font-size: 1rem;
         margin-right: 1rem;
         padding: 0.5rem 1rem;
-        border: 3px solid green;
+        border: 3px solid $mainBlue;
         background: transparent;
-        color: white;
+        color: $darkerText;
         transition: all 0.5s ease;
         font-family: "Be Vietnam Pro", sans-serif;
         font-weight: 700;
         cursor: pointer;
         &:hover {
-          background-color: green;
+          background-color: $mainBlue;
           color: white;
         }
       }
@@ -49,12 +51,20 @@
         display: flex;
         justify-content: left;
         margin: 1rem;
+        opacity: 0;
+        transition: all 0.5s ease;
         li {
           font-family: "Be Vietnam Pro", sans-serif;
           font-weight: 100;
           padding-right: 2rem;
-          color: yellow;
+          color: white;
         }
+      }
+    }
+    &:hover {
+      background-color: $altBodyBack;
+      ul {
+        opacity: 1;
       }
     }
   }

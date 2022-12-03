@@ -27,15 +27,15 @@
   margin-right: 5rem;
   padding: 1rem 2rem;
   font-size: 1.1rem;
-  border: 3px solid green;
+  border: 3px solid $mainBlue;
   background: transparent;
-  color: white;
+  color: $darkerText;
   transition: all 0.5s ease;
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 700;
   cursor: pointer;
   &:hover {
-    background-color: green;
+    background-color: $mainBlue;
     color: white;
   }
 }
