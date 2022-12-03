@@ -22,8 +22,20 @@ function Projects() {
         <div className="card-title">
           <h2>Music Player</h2>
           <div className="card-btns">
-            <button className="project-btn">Demo</button>
-            <button className="project-btn">GitHub</button>
+            <a
+              href="https://johnlombardi389.github.io/music-player/"
+              target="_blank"
+              className="project-btn"
+            >
+              Demo
+            </a>
+            <a
+              href="https://github.com/johnlombardi389/music-player"
+              target="_blank"
+              className="project-btn"
+            >
+              GitHub
+            </a>
           </div>
         </div>
         <div className="card-desc">
@@ -42,8 +54,20 @@ function Projects() {
         <div className="card-title">
           <h2>Pixel Sketch</h2>
           <div className="card-btns">
-            <button className="project-btn">Demo</button>
-            <button className="project-btn">GitHub</button>
+            <a
+              href="https://johnlombardi389.github.io/pixel-sketch/"
+              target="_blank"
+              className="project-btn"
+            >
+              Demo
+            </a>
+            <a
+              href="https://github.com/johnlombardi389/pixel-sketch"
+              target="_blank"
+              className="project-btn"
+            >
+              GitHub
+            </a>
           </div>
         </div>
         <div className="card-desc">
@@ -61,8 +85,20 @@ function Projects() {
         <div className="card-title">
           <h2>Layout Generator</h2>
           <div className="card-btns">
-            <button className="project-btn">Demo</button>
-            <button className="project-btn">GitHub</button>
+            <a
+              href="https://johnlombardi389.github.io/layout-generator/"
+              target="_blank"
+              className="project-btn"
+            >
+              Demo
+            </a>
+            <a
+              href="https://github.com/johnlombardi389/layout-generator"
+              target="_blank"
+              className="project-btn"
+            >
+              GitHub
+            </a>
           </div>
         </div>
         <div className="card-desc">
@@ -80,8 +116,20 @@ function Projects() {
         <div className="card-title">
           <h2>Rock, Paper, Scissors</h2>
           <div className="card-btns">
-            <button className="project-btn">Demo</button>
-            <button className="project-btn">GitHub</button>
+            <a
+              href="https://johnlombardi389.github.io/rock-paper-scissors/"
+              target="_blank"
+              className="project-btn"
+            >
+              Demo
+            </a>
+            <a
+              href="https://github.com/johnlombardi389/rock-paper-scissors"
+              target="_blank"
+              className="project-btn"
+            >
+              GitHub
+            </a>
           </div>
         </div>
         <div className="card-desc">

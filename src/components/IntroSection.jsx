@@ -39,7 +39,9 @@ function IntroSection() {
         <Link to={"/projects"}>
           <button className="intro-btn">See My Work</button>
         </Link>
-        <button className="intro-btn">Contact Me</button>
+        <a href="mailto:johnlombardi389@gmail.com" className="intro-btn">
+          Contact Me
+        </a>
       </div>
     </div>
   );
