@@ -28,12 +28,8 @@ function IntroSection() {
         <div>
           <div className="hide">
             <h2>
-              I’m all about
-              <span>
-                crafting accessible user experiences and impactful business
-                solutions
-              </span>
-              .
+              I’m all about crafting accessible user experiences and impactful
+              business solutions.
             </h2>
           </div>
         </div>
