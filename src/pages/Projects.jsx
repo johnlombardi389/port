@@ -25,7 +25,7 @@ function Projects() {
             <ul>
               <li>React</li>
               <li>JavaScript</li>
-              <li>SASS</li>
+              <li>Sass</li>
               <li>HTML</li>
               <li>Figma</li>
             </ul>
@@ -87,7 +87,7 @@ function Projects() {
           <div className="card-desc">
             <ul>
               <li>JavaScript</li>
-              <li>SASS</li>
+              <li>CSS</li>
               <li>HTML</li>
               <li>Figma</li>
             </ul>
