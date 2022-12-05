@@ -1,31 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// Animation
+import { motion } from "framer-motion";
+import { titleAnimation, fade } from "../animation";
 
 function IntroSection() {
   return (
     <div className="intro-container">
-      <div className="title">
-        <div>
+      <motion.div className="title" variants={titleAnimation}>
+        <div className="reveal">
           <div className="hide">
             <h2>
               My name is <span>John Lombardi</span>.
             </h2>
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      <div className="title">
-        <div>
+      <motion.div className="title" variants={titleAnimation}>
+        <div className="reveal">
           <div className="hide">
             <h2>
               I’m a design minded front-end web developer and lifelong learner.
             </h2>
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      <div className="title">
-        <div>
+      <motion.div className="title" variants={titleAnimation}>
+        <div className="reveal">
           <div className="hide">
             <h2>
               I’m all about crafting accessible user experiences and impactful
@@ -33,16 +36,16 @@ function IntroSection() {
             </h2>
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      <div className="btn-container">
+      <motion.div className="btn-container" variants={fade}>
         <Link to={"/projects"}>
           <button className="intro-btn">See My Work</button>
         </Link>
         <a href="mailto:johnlombardi389@gmail.com" className="intro-btn">
           Contact Me
         </a>
-      </div>
+      </motion.div>
     </div>
   );
 }
