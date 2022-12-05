@@ -1,7 +1,7 @@
 import React from "react";
 // Animation
 import { motion } from "framer-motion";
-import { pageAnimation } from "../animation";
+import { pageAnimation, fade } from "../animation";
 // Icons
 import {
   SiReact,
@@ -25,14 +25,13 @@ import codingImg from "../assets/codingImg.svg";
 
 function About() {
   return (
-    <div>
-      <motion.div
-        className="about-page"
-        variants={pageAnimation}
-        initial="hidden"
-        animate="show"
-        exit="exit"
-      >
+    <motion.div
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
+      <div className="about-page">
         <div className="about-text">
           <h1>About Me</h1>
           <p>
@@ -67,15 +66,9 @@ function About() {
         <div className="about-img">
           <img src={codingImg} alt="Portfolio Image" />
         </div>
-      </motion.div>
+      </div>
 
-      <motion.div
-        className="skills-section"
-        variants={pageAnimation}
-        initial="hidden"
-        animate="show"
-        exit="exit"
-      >
+      <motion.div className="skills-section" variants={fade}>
         <h1>Skills</h1>
         <div className="skills-list">
           <ul>
@@ -142,7 +135,7 @@ function About() {
           </ul>
         </div>
       </motion.div>
-    </div>
+    </motion.div>
   );
 }
 
