@@ -20,7 +20,7 @@ function IntroSection() {
       <motion.div className="title" variants={titleAnimation}>
         <div className="reveal">
           <div className="hide">
-            <h2>
+            <h2 className="sm-title">
               I’m a design minded front-end web developer and lifelong learner.
             </h2>
           </div>
