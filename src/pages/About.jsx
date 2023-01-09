@@ -10,14 +10,13 @@ import {
   SiCss3,
   SiHtml5,
   SiGit,
-  SiNodedotjs,
+  SiRedux,
   SiVite,
   SiBootstrap,
   SiVisualstudiocode,
   SiFigma,
   SiAdobephotoshop,
   SiAdobeillustrator,
-  SiAdobeindesign,
   SiAdobexd,
 } from "react-icons/si";
 // Images
@@ -97,8 +96,8 @@ function About() {
               <span>Git</span>
             </li>
             <li>
-              <SiNodedotjs />
-              <span>Node.js</span>
+              <SiRedux />
+              <span>Redux</span>
             </li>
             <li>
               <SiVite />
@@ -123,10 +122,6 @@ function About() {
             <li>
               <SiAdobeillustrator />
               <span>Illustrator</span>
-            </li>
-            <li>
-              <SiAdobeindesign />
-              <span>InDesign</span>
             </li>
             <li>
               <SiAdobexd />
