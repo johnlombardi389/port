@@ -1,7 +1,7 @@
 import React from "react";
 // Animation
 import { motion } from "framer-motion";
-import { pageAnimation, fade } from "../animation";
+import { pageAnimation, btnSlide } from "../animation";
 // Icons
 import {
   SiReact,
@@ -67,7 +67,7 @@ function About() {
         </div>
       </div>
 
-      <motion.div className="skills-section" variants={fade}>
+      <motion.div className="skills-section" variants={btnSlide}>
         <h1>Skills</h1>
         <div className="skills-list">
           <ul>
