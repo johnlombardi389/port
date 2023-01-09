@@ -48,3 +48,25 @@ export const fade = {
     },
   },
 };
+
+export const btnSlide = {
+  hidden: {
+    opacity: 0,
+    x: 500,
+  },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      ease: "easeOut",
+      duration: 1.5,
+    },
+  },
+  exit: {
+    opacity: 0,
+    y: 300,
+    transition: {
+      duration: 0.75,
+    },
+  },
+};

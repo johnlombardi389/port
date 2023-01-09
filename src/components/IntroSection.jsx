@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // Animation
 import { motion } from "framer-motion";
-import { titleAnimation, fade } from "../animation";
+import { titleAnimation, btnSlide } from "../animation";
 
 function IntroSection() {
   return (
@@ -27,7 +27,7 @@ function IntroSection() {
         </div>
       </motion.div>
 
-      <motion.div className="title" variants={titleAnimation}>
+      {/* <motion.div className="title" variants={titleAnimation}>
         <div className="reveal">
           <div className="hide">
             <h2>
@@ -36,9 +36,9 @@ function IntroSection() {
             </h2>
           </div>
         </div>
-      </motion.div>
+      </motion.div> */}
 
-      <motion.div className="btn-container" variants={fade}>
+      <motion.div className="btn-container" variants={btnSlide}>
         <Link to={"/projects"}>
           <button className="intro-btn">See My Work</button>
         </Link>
