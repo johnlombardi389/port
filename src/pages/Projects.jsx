@@ -7,6 +7,7 @@ import musicImg from "../assets/musicImg.png";
 import pixelImg from "../assets/pixelImg.png";
 import layoutImg from "../assets/layoutImg.png";
 import rpsImg from "../assets/rpsImg.png";
+import gtImg from "../assets/gtImg.png";
 
 function Projects() {
   return (
@@ -17,6 +18,38 @@ function Projects() {
       animate="show"
       exit="exit"
     >
+      <div className="card">
+        <img src={gtImg} alt="Music Player Project" />
+        <div className="card-title">
+          <h2>Game Website</h2>
+          <div className="card-desc">
+            <ul>
+              <li>React</li>
+              <li>Redux</li>
+              <li>JavaScript</li>
+              <li>Sass</li>
+              <li>REST API</li>
+            </ul>
+          </div>
+          <div className="card-btns">
+            <a
+              href="https://johnlombardi389.github.io/game-tracker/"
+              target="_blank"
+              className="project-btn"
+            >
+              Demo
+            </a>
+            <a
+              href="https://github.com/johnlombardi389/game-tracker"
+              target="_blank"
+              className="project-btn"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="card">
         <img src={musicImg} alt="Music Player Project" />
         <div className="card-title">
