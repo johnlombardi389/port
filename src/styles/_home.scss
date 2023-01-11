@@ -27,7 +27,7 @@
       font-size: 1.8rem;
     }
   }
-  @media (max-width: 1400px) {
+  @media (max-width: 900px) {
     .title {
       margin-bottom: 1.5rem;
       h2 {
@@ -57,7 +57,7 @@
     background-color: $mainBlue;
     color: white;
   }
-  @media (max-width: 1400px) {
+  @media (max-width: 900px) {
     margin-top: 1.5rem;
     margin-right: 1.5rem;
     padding: 0.75rem 0.5rem;
