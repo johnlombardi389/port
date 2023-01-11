@@ -11,6 +11,10 @@
 
 ## Overview
 
+Designing and building myself a developer portfolio using React. Overall, this portfolio will be visually appealing and easy to navigate through the various components.
+
+Framer Motion is used to add smooth animations and transitions to enhance the user experience. SASS is used as a CSS preprocessor to write modular and maintainable styles. Git is used for version control and to keep track of changes made to the codebase. Vite is used as a development server that allows for fast and efficient development. Figma is used for design and prototyping, and for creating a cohesive visual design for the portfolio.
+
 ### Links
 
 - Live Site URL: [React Portfolio Website](https://johnlombardi389.github.io/portfolio/)
@@ -34,6 +38,10 @@
 - Adobe Illustrator
 
 ### What I learned
+
+- Using React Router to create different routes and views within the application, and how to handle navigation between them
+- How to add animations and transitions to elements in a React application using Framer Motion, and how to create engaging user experiences
+- Using Vite to set up a development server and how to quickly iterate and test changes during the development process, as well as deploying Vite projects to GitHub pages
 
 ---
 
