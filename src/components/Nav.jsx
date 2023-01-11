@@ -9,16 +9,16 @@ function Nav() {
   return (
     <nav>
       <h1>
-        <NavLink id="logo" to={"/"}>
+        <NavLink id="logo" to={"/portfolio"}>
           <img src={portLogo} alt="John Lombardi Logo" />
         </NavLink>
       </h1>
       <ul>
         <li>
-          <NavLink to={"/projects"}>Projects</NavLink>
+          <NavLink to={"/portfolio/projects"}>Projects</NavLink>
         </li>
         <li>
-          <NavLink to={"/about"}>About</NavLink>
+          <NavLink to={"/portfolio/about"}>About</NavLink>
         </li>
         <li>
           <a
