@@ -7,6 +7,7 @@ import musicImg from "../assets/musicImg.png";
 import pixelGridImg from "../assets/pixelGridImg.png";
 import layoutGenImg from "../assets/layoutGenImg.png";
 import gtImg from "../assets/gtImg.png";
+import portfolioImg from "../assets/portfolioImg.png";
 
 function Projects() {
   return (
@@ -134,6 +135,32 @@ function Projects() {
             </a>
             <a
               href="https://github.com/johnlombardi389/layout-generator"
+              target="_blank"
+              className="project-btn"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="card">
+        <img src={portfolioImg} alt="Layout Generator Project" />
+        <div className="card-title">
+          <h2>React Portfolio</h2>
+          <div className="card-desc">
+            <ul>
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>Sass</li>
+              <li>Vite</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div className="card-btns">
+            <button className="inactive-btn">Demo</button>
+            <a
+              href="https://github.com/johnlombardi389/portfolio"
               target="_blank"
               className="project-btn"
             >

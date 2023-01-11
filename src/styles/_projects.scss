@@ -73,3 +73,16 @@
     }
   }
 }
+
+.inactive-btn {
+  font-size: 1rem;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border: 3px solid $altBodyBack;
+  background: transparent;
+  color: $altBodyBack;
+  transition: all 0.5s ease;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
