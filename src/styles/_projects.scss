@@ -1,14 +1,11 @@
 .projects-grid {
   max-width: 1900px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto;
-  grid-gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  grid-column-gap: 3rem;
+  grid-row-gap: 5rem;
   margin: auto;
   padding: 5rem;
-  @media (max-width: 1300px) {
-    grid-template-columns: 1fr;
-  }
   .card {
     background-color: $navBack;
     transition: all 0.5s ease;
@@ -23,7 +20,7 @@
       align-items: center;
       margin: 1rem 0rem 1rem 1rem;
       h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-family: "Be Vietnam Pro", sans-serif;
         font-weight: 700;
         color: white;
@@ -45,6 +42,18 @@
           color: white;
         }
       }
+      .inactive-btn {
+        font-size: 1rem;
+        margin-right: 1rem;
+        padding: 0.5rem 1rem;
+        border: 3px solid $altBodyBack;
+        background: transparent;
+        color: $altBodyBack;
+        transition: all 0.5s ease;
+        font-family: "Be Vietnam Pro", sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+      }
     }
     .card-desc {
       ul {
@@ -58,7 +67,7 @@
           font-family: "Be Vietnam Pro", sans-serif;
           font-size: 0.75rem;
           font-weight: 400;
-          padding: 0rem 1rem;
+          padding: 0rem 0.5rem;
           color: $mainPink;
         }
       }
@@ -72,17 +81,38 @@
       }
     }
   }
-}
-
-.inactive-btn {
-  font-size: 1rem;
-  margin-right: 1rem;
-  padding: 0.5rem 1rem;
-  border: 3px solid $altBodyBack;
-  background: transparent;
-  color: $altBodyBack;
-  transition: all 0.5s ease;
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: 700;
-  text-decoration: none;
+  @media (max-width: 1475px) {
+    grid-template-columns: 1fr;
+  }
+  @media (max-width: 800px) {
+    .card-desc {
+      ul {
+        li {
+          display: none;
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    grid-row-gap: 2rem;
+    padding: 2rem 0;
+    .card {
+      .card-title {
+        margin: 0.5rem 0rem 0.5rem 0.5rem;
+        h2 {
+          font-size: 1rem;
+        }
+        .project-btn {
+          font-size: 0.8rem;
+          margin-right: 0.5rem;
+          border: 2px solid $mainBlue;
+        }
+        .inactive-btn {
+          font-size: 0.8rem;
+          margin-right: 0.5rem;
+          border: 2px solid $altBodyBack;
+        }
+      }
+    }
+  }
 }

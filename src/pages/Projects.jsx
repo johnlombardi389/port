@@ -153,7 +153,6 @@ function Projects() {
               <li>React</li>
               <li>JavaScript</li>
               <li>Sass</li>
-              <li>Vite</li>
               <li>Figma</li>
             </ul>
           </div>
