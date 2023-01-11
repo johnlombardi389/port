@@ -1,5 +1,7 @@
 # React Portfolio
 
+![Screenshot](/src/assets/portfolioImg.png)
+
 ## Table of contents
 
 - [Overview](#overview)

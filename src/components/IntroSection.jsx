@@ -39,7 +39,7 @@ function IntroSection() {
       </motion.div> */}
 
       <motion.div className="btn-container" variants={btnSlide}>
-        <Link to={"/projects"}>
+        <Link to={"/portfolio/projects"}>
           <button className="intro-btn">See My Work</button>
         </Link>
         <a href="mailto:johnlombardi389@gmail.com" className="intro-btn">
