@@ -1,30 +1,46 @@
-### Portfolio using React
+# React Portfolio
 
-## Tools
+## Table of contents
 
-<p>
-  <a href="https://reactjs.org/">
-    <img src="https://skillicons.dev/icons?i=react" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-    <img src="https://skillicons.dev/icons?i=js" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://sass-lang.com/">
-    <img src="https://skillicons.dev/icons?i=sass" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">
-    <img src="https://skillicons.dev/icons?i=html" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://nodejs.org/en/">
-    <img src="https://skillicons.dev/icons?i=nodejs" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://git-scm.com/">
-    <img src="https://skillicons.dev/icons?i=git" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://www.figma.com">
-    <img src="https://skillicons.dev/icons?i=figma" alt="Icon from https://skillicons.dev" />
-  </a>
-  <a href="https://code.visualstudio.com/">
-    <img src="https://skillicons.dev/icons?i=vscode" alt="Icon from https://skillicons.dev" />
-  </a>
-  </p>
+- [Overview](#overview)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Tools](#tools)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+
+## Overview
+
+### Links
+
+- Live Site URL: [React Portfolio Website](https://johnlombardi389.github.io/portfolio/)
+
+---
+
+## My process
+
+### Tools
+
+- React
+- JavaScript
+- React Router
+- React Icons
+- Framer Motion
+- Sass
+- HTML
+- Git
+- Vite
+- Figma
+- Adobe Illustrator
+
+### What I learned
+
+---
+
+## Author
+
+John Lombardi
+
+- [Portfolio](https://johnlombardi389.github.io/portfolio/)
+- [LinkedIn](https://www.linkedin.com/in/johnlombardi389/)
+- [GitHub](https://github.com/johnlombardi389)
